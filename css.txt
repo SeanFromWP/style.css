@@ -14,18 +14,17 @@ h2 {
 /* 一般文字 */ 
 .12px {
   font-size: 12px;
-  font-family: Open Sans;
 }
 
 /* 大文字 */ 
 .16px {
   font-size: 16px;
-  font-family: Open Sans;
 }
 
 /* 日期 */ 
-.date {
-  font-color: skyblue
+.d {
+  font-color: skyblue;
+  font-family: Calibri;
 }
 
 /* 內部連結 */
