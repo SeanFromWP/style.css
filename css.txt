@@ -10,11 +10,24 @@ h2 {
   font-size: 29px;
   font-family: Playfair Display;
 }
+
 /* 一般文字 */ 
-span {
+.12px {
   font-size: 12px;
   font-family: Open Sans;
 }
+
+/* 大文字 */ 
+.16px {
+  font-size: 16px;
+  font-family: Open Sans;
+}
+
+/* 日期 */ 
+.date {
+  font-color: skyblue
+}
+
 /* 內部連結 */
 .il {
   color: #4a86e8; /* 藍色 */
@@ -22,10 +35,10 @@ span {
   font-family: Calibri;
   text-decoration: none;
 }
+
 /* 外部連結 */
 .el {
   color: #ff7f2a; /* 橘色 */
-  font-size: 12px;
   font-family: Calibri;
   text-decoration: none;
   target: _blank
@@ -33,6 +46,25 @@ span {
 .el:visited {
   color: #ff9955; /* 橘紅色 */
 }
+
+/* 看更多 */
+.more {
+  font-weight:bold;
+  text-decoration: none;
+  color: #6983b8;;
+}
+
+/* 彩虹標題 */
+.r {
+  font-family: Calibri;
+  background: linear-gradient(45deg, #5599ff, #00ccff, #66ff00, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  target: _blank;
+}
+
+
+
 /* 下方按鈕 */
 button {
   border-radius: 8px;
@@ -43,12 +75,7 @@ button {
   font-size: 1.8em;
   padding: 0.5em 1em;
 }
-/* 看更多 */
-.more {
-  font-weight:bold;
-  text-decoration: none;
-  color: #6983b8;;
-}
+
 /* 頁尾 */
 .buttom {
   text-align: center;
