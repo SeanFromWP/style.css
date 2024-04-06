@@ -1,1 +1,13 @@
-.с{border-radius:4px;text-align:center;font-family:Helvetica;color:#fff;background-color:#ffdb00;width:20px;}.ц{background-color:#0070bd;width:50px;}
+.с {
+  border-radius: 4px;
+  text-align: center;
+  font-family: Helvetica;
+  color: #fff;
+  background-color: #ffdb00;
+  width: 20px;
+}
+
+.ц {
+  background-color: #0070bd;
+  width: 50px;
+}
